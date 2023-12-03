@@ -2,53 +2,13 @@
 <html>
 <head>
   <title>Tracked Titles</title>
-  <style>
-    body {
-      width: 200px;
-      padding: 10px;
-    }
-
-    #trackedTitlesList {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-    .song-contanier {
-      display: flex;
-      align-items: center;
-
-      padding: 10px;
-      background-color: black;
-      padding: 5px;
-      margin: 2px;
-      color: white;
-      border-radius: 5px;
-    }
-
-    a {
-      text-decoration: none;
-      color: white;
-    }
-
-    .song-details {
-      margin-left: 10px;
-      flex-grow: 1;
-    }
-
-    .artist {
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .time {
-      color:  #888;
-    }
-
-  </style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <button id="clear">Clear songs</button>
+  <a id="clear">
+    <img src="./files/trash.svg" height="30" width="30" />
+  </a>
   <h2>Tracked Songs</h2>
   <div id="trackedTitlesList">
   </div>

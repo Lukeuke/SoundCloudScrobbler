@@ -1,0 +1,57 @@
+body {
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+}
+
+h2 {
+    color: #FF7700;
+}
+
+#clear {
+    cursor: pointer;
+}
+
+#clear img:hover {
+    transform: scale(1.1)
+}
+
+#clear img:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#trackedTitlesList {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.song-contanier {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    background-color: #111;
+    padding: 5px;
+    margin: 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.song-details {
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.artist {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.time {
+    color:  #888;
+}
