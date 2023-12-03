@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Soundcloud Scrobbler",
     "description": "I scrobble your Soundcloud music",
-    "version": "1.2",
+    "version": "1.4",
     "icons": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",

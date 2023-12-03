@@ -7,13 +7,51 @@
       width: 200px;
       padding: 10px;
     }
+
+    #trackedTitlesList {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .song-contanier {
+      display: flex;
+      align-items: center;
+
+      padding: 10px;
+      background-color: black;
+      padding: 5px;
+      margin: 2px;
+      color: white;
+      border-radius: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .song-details {
+      margin-left: 10px;
+      flex-grow: 1;
+    }
+
+    .artist {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .time {
+      color:  #888;
+    }
+
   </style>
 </head>
 
 <body>
+  <button id="clear">Clear songs</button>
   <h2>Tracked Songs</h2>
-  <ul id="trackedTitlesList">
-  </ul>
+  <div id="trackedTitlesList">
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
