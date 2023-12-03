@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log(song)
 
     if (!song) return;
-    if(song == {}) return;
+    if (song == {}) return;
 
     console.log(`Scrobbling: ${song.title} by ${song.artist.name}`);
 

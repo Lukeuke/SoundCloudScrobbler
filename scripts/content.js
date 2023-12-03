@@ -5,12 +5,18 @@ let song = {}
 function extractSoundCloudInfo() {
 
     console.log(song)
-    chrome.runtime.sendMessage({
-    action: 'extractedInfo',
-    data: {
-        song
+
+    try {
+        chrome.runtime.sendMessage({
+            action: 'extractedInfo',
+            data: {
+                song
+            }
+        });
     }
-    });
+    catch {
+
+    }
 }
  
 function currPlayingSong() {
