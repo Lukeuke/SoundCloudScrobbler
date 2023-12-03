@@ -4,10 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     trackedTitles = result.trackedTitles || [];
     const trackedTitlesList = document.getElementById('trackedTitlesList');
 
-    console.log(trackedTitles)
-
     trackedTitles.forEach(function (songObj) {
-      console.log(songObj)
       const songContainer = document.createElement('div');
       songContainer.className = "song-contanier";
 
